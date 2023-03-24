@@ -74,7 +74,6 @@ img[alt*="dashboard"] {
   min-width: 46px;
   min-height: 46px;
 }
-
 /* Sidebar Ends */
 
 /* Header Starts */
@@ -202,7 +201,7 @@ img[alt*="dashboard"] {
 
 .contents {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 3fr 1fr;
 }
 
 .contents > * {
@@ -215,10 +214,9 @@ img[alt*="dashboard"] {
 
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 5fr;
+  grid-template-rows: 0.1fr 1fr 1fr;
   row-gap: 16px;
   padding: 18px;
-  justify-items: center;
 }
 
 .project h2 {
@@ -264,10 +262,9 @@ img[alt*="dashboard"] {
 .announcement {
   display: grid;
   grid-template-rows: 1fr 5fr;
-  justify-items: center;
 }
 
-.wrapper {
+.announcement .wrapper {
   background-color: sandybrown;
   border-radius: 8px;
   width: 300px;
@@ -301,3 +298,48 @@ img[alt*="dashboard"] {
 .msg {
   padding: 16px;
 }
+/* announcement ends */
+
+/* Trending begins */
+.trend {
+  margin-top: 24px;
+}
+.profile {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  margin-top: 24px;
+  width: 300px;
+}
+
+.profile .tag {
+  font-weight: 600;
+}
+
+.icon-1,
+.icon-2,
+.icon-3,
+.icon-4 {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  grid-row: 1 / -1;
+}
+
+.icon-1 {
+  background-color: aqua;
+}
+
+.icon-2 {
+  background-color: gold;
+}
+
+.icon-3 {
+  background-color: gainsboro;
+}
+
+.icon-4 {
+  background-color: palevioletred;
+}
+/* Trending Ends */

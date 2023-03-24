@@ -105,6 +105,11 @@ img[alt*="dashboard"] {
   gap: 18px;
 }
 
+.search-bar label > img {
+  min-height: 24px;
+  min-width: 24px;
+}
+
 .search-bar input {
   min-width: 750px;
   max-width: 200px;

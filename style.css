@@ -121,7 +121,7 @@ img[alt*="dashboard"] {
 }
 
 .user-icon {
-  margin-right: 100px;
+  margin-right: 120px;
 
   display: flex;
   align-items: center;
@@ -335,6 +335,7 @@ img[alt*="dashboard"] {
   width: 300px;
   height: 300px;
   margin-top: 16px;
+  margin-bottom: 18px;
 
   display: flex;
   flex-direction: column;
